@@ -112,7 +112,7 @@ def SEND_WEBHOOK(CHANGED_CATEGORY, ITEM_ID, CHANGE_TYPE, ITEM_NAME, INFO_ONE, IN
         except Exception as e:
             successful_post = False
             print(e)
-            time.sleep(10)
+            time.sleep(240)
             
             
             
