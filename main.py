@@ -22,8 +22,8 @@ CREDIT_IMAGE = 'https://github.com/RagingEnby/SkypixelRepo/blob/main/pfp.png?raw
 
 BOT_NAME = 'Skypixel'
 BOT_AVATAR = 'https://github.com/RagingEnby/SkypixelRepo/blob/main/skypixel.png?raw=true'
+# backend url: WEBHOOK_URL = "https://discord.com/api/webhooks/1162537511990612088/z0yLtToP_3T32N8VI1vIUyOG1kvB-k1AuWGhkMt3lrc7De90raGt4yon9mK5u8OXPiwR"
 WEBHOOK_URL = "https://discord.com/api/webhooks/1130053094105952276/1M-2qN-zJarywvO_Ck8qnpUtLL9akfjX2IDZRu0RlZ7ONmsqHIJB7UhyN1fy-HBJ7x7o"
-
 dev_mode = False
 
 ITEM_PING = "<@&1130077795234619392>"
@@ -183,4 +183,4 @@ while True:
     compare_data(previous_data, current_data)
   
   print("Finished scan!\n")
-  time.sleep(5)
+  time.sleep(120)
